@@ -44,4 +44,4 @@ override fun onCreate(savedInstanceState: Bundle?) {
 ```
 
 Result:
-<img width="400" src="/CoreSplashScreenApi.webm"/>
+<img width="400" src="CoreSplashScreenApi.gif"/>
