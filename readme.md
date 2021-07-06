@@ -7,7 +7,7 @@ but after that they are began to use splash screen to their android products.
 Now they are developing core splash screen API :).
 - [Splash screen might be a bad pattern.](https://androiduipatterns.com/splash-screen-with-any-other-name-is-still-a-splash-screen-and-they-suck-bab7f3b5850c) 
 
-Can be implemented to our project by following 5 simple steps:
+## Can be implemented to our project by following 5 simple steps:
 1. Change the compileSdkVersion to api 31 (android S).
 ```groovy
 android {
@@ -43,5 +43,5 @@ override fun onCreate(savedInstanceState: Bundle?) {
 }
 ```
 
-Result:
+## Result
 <img width="400" src="CoreSplashScreenApi.gif"/>
