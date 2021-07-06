@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- TODO 3 create splash screen theme, update night theme if the app supports it -->
+<!--    Style parent needs to be Theme.SplashScreen from the API-->
+<!--    windowSplashScreenBackground to set the background color-->
+<!--    windowSplashScreenAnimatedIcon to set the splash icon-->
+<!--    postSplashScreenTheme to set the theme that will be used once the Splash screen is no longer visible-->
+
+    <style name="Theme.YourSplashTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/purple_500</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.YourAppTheme</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="Theme.YourAppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
