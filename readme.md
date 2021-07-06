@@ -1,4 +1,13 @@
-Core splash screen api can be implemented to our project by following 5 simple steps:
+# Core splash screen api
+
+- Can be supported down to API 23.
+- Can be used if we compile our project with API 31 / Android S / Android 12.
+- Interestingly Google was against splash screen in the old time, 
+but after that they are began to use splash screen to their android products.
+Now they are developing core splash screen API :).
+- [Splash screen might be a bad pattern](https://androiduipatterns.com/splash-screen-with-any-other-name-is-still-a-splash-screen-and-they-suck-bab7f3b5850c) 
+
+Can be implemented to our project by following 5 simple steps:
 1. Change the compileSdkVersion to api 31 (android S)
 ```groovy
 android {
@@ -35,4 +44,4 @@ override fun onCreate(savedInstanceState: Bundle?) {
 ```
 
 Result:
-<img width="300" src="CoreSplashScreenApi.pdf"/>
+<img width="400" src="CoreSplashScreenApi.pdf"/>
